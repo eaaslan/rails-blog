@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+.notice {
+  @apply bg-green-500 text-white p-4 rounded-md;
+}
+
+.alert {
+  @apply bg-red-500 text-white p-4 rounded-md;
+}

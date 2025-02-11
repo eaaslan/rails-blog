@@ -1,0 +1,8 @@
+<header class="container flex justify-between items-center p-4 mx-4">
+    <h1 class="text-2xl font-bold"> Blog App </h1>
+
+    <nav class="flex gap-4">
+        <%= link_to "Categories", categories_path, class: "text-gray-700 hover:text-blue-500"  %>
+        <%= button_to "Logout", session_path, method: :delete, data:{turbo_confirm: "Are you sure?"}, class: "text-red-700 hover:text-blue-500" %>
+    </nav>
+</header>
